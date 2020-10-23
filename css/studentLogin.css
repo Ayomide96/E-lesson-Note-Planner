@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    color:orange;
+  }
+  
+  .form-container{
+      text-align:center;
+      border: 2px solid orange;
+      width: 25%;
+      height: 25rem;
+      margin: 0 auto;
+  }
+  .planner-logo{
+      margin:5% 0;
+  }
+  #user-name, #password{
+      margin-bottom: 2%;
+      width: 90%;
+      height: 1.5rem;
+      border: none;
+      border-bottom:2px solid gray;
+      margin-bottom: 1rem;
+  }
+  ::placeholder{
+      color:orange;    
+  }
+  #user-name:focus, #password:focus{
+      outline: none;
+      border-bottom:2px solid green;
+  }
+  #check-box{
+      position:relative;
+      left:-3.5em;
+      border: 1px solid red;
+  }
+  #check-box-text{
+      position:relative;
+      left:-2.5em;
+      color:orange;
+  }
+  #forgot-password{
+      position:relative;
+      left: 3rem;
+      color:orange;
+  }
+  a{
+      text-decoration: none;
+  }
+  #button{
+      border:gray;
+      border-radius: 15px;
+      margin-top: 1.5rem;
+      margin-bottom:1rem;
+      padding:10px;
+      width:5rem;
+      color:orange;
+      cursor:pointer;
+      outline:none;
+  }
+  #button:focus{
+      transform: translate(2%, 5%);
+  }
+  #account-container{
+      color:orange;
+  }
+  #sign-up{
+      color:orange;
+  }
+  
